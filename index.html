@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Witty Kitty</title>
+    <!-- Icon tab -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/scr/icon/artboard-10_89054.ico"/>
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/scss/main.css">
+    <!-- swiper js -->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!--===== Navbar =======-->
+    <nav class="navbar">
+        <div class="logo">
+            <h4>Witty Kitty</h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#kitties">Kitties</a>
+            </li>
+            <li>
+                <a href="#random-kitty">Random Kitty</a>
+            </li>
+            <li>
+                <a href="#care">Care</a>
+            </li>
+        </ul>
+        <div class="fry">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+<article class="hero">
+<!--===== Letras animadas =======-->
+        <div class="letras-bonitas">
+            <img src="assets/scr/liftarn_Cat_silhouette.svg" class="imgm" alt="">
+            <h1 class="ml5">
+                <span class="text-wrapper">
+                  <span class="line line1"></span>
+                  <span class="letters letters-left">Witty</span>
+                  <span class="ampersand"><box-icon name='baidu' type='logo' ></box-icon></span>
+                  <span class="letters letters-right">Kitty</span>
+                  <span class="line line2"></span>
+                </span>
+              </h1>
+              <img src="assets/scr/liftarn_Cat_silhouette.svg" class="imgm" alt="">
+        </div>
+
+<!--===== Slider =======-->
+        <div class="container-slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+          
+                   <!-- Element with lazy background image -->
+              <div class="swiper-slide">
+                  <div data-background="/assets/scr/slider/header-1.jpg" class="swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div data-background="/assets/scr/slider/header-2.jpg" class="swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div data-background="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                </div>
+                 <!-- If we need pagination -->
+                 <div class="swiper-pagination"></div>
+                 <!-- If we need navigation buttons -->
+                 <div class="swiper-button-prev"></div>
+                 <div class="swiper-button-next"></div>
+              </div>
+        </div>
+<!--===== RANDOM FACTS =======-->
+<div class="random-facts">
+    <h1 class="random-tittle">RANDOM FACTS!</h1>
+              <div id="gato"></div>
+<p id="parrafo"> Get a random cat fact</p>
+    <button id="btn" class="btn" onclick="cliky()">CLICK ME!</button>
+</div>
+</article>
+<!--===== TYPES OF CATS =======-->
+<div class="types-container" id="kitties">
+  <h1 class="type-tittle">TYPES OF <span class="pinky-cat">CATS</span></h1>
+  <div class="kitty-1 k1">
+    <h1 class="kitty-tittle">Bombay Cat</h1>
+    <div class="type-info">
+      <p>The Bombay is an easy-going, yet energetic cat. She does well in quiet apartments where she’s the center of attention as well as in lively homes with children and other pets. She’ll talk to you in a distinct voice, and you’re likely to find her in the warmest spot in your home, whether that’s in the sunlight from a window or curled up under the covers in bed with you. </p>
+    </div>
+    <div class="type-photo">
+      <img src="/assets/scr/The-Bombay-Cat.jpg" class="img-cat" id="secondp" alt="">
+      <img src="/assets/scr/bombay2.jpg" class="img-cat" loading="lazy" id="resecond" alt="">
+    </div>
+  </div>
+
+
+  <div class="kitty-1 k2">
+    <h1 id="swap-tittle" class="kitty-tittle">LaPerm Cat</h1>
+    <div class="type-photo photo1">
+      <img src="/assets/scr/Laperm_LH_blacktortie_white.jpg" class="img-cat" id="firstp" alt="">
+      <img src="/assets/scr/laperm2.jpg" class="img-cat" id="refirst" loading="lazy" alt="">
+    </div>
+    <div class="type-info">
+      <p>Distinguished by her curly, rippled coat and people-oriented personality, the LaPerm is calm and friendly, yet at other times energetic and inquisitive. This feline thrives on attention and likes to be close to her human companions. Though curious, this breed is content to be a lap cat and close to whatever is going on. The LaPerm blossoms with a loving family.</p>
+    </div>
+    <h1 id="kit-tittle" class="kitty-tittle">LaPerm Cat</h1>
+  </div>
+
+  <div class="kitty-1 k3">
+    <h1 class="kitty-tittle">Japanese Bobtail Cat</h1>
+    <div class="type-info">
+      <p>One of the oldest cat breeds, the Japanese Bobtail is believed to bring good luck and prosperity. The two coat varieties, longhair and shorthair, are exactly the same except for coat length. This delightfully mischievous feline enjoys a good game of fetch and likes to carry things in her mouth. A healthy breed that lives an average of 15 to 18 years, the Japanese Bobtail is social and particularly good with children.</p>
+    </div>
+    <div class="type-photo">
+      <img src="/assets/scr/bobtail2.jpg" id="rethird" loading="lazy" class="img-cat" alt="">
+      <img src="/assets/scr/JaponskÏ bobtail (1).jpg" id="thirdp" class="img-cat" alt="">
+    </div>
+  </div>
+</div>
+<!--===== CAT OF THE MOMENT =======-->
+<div class="moment" id="random-kitty">
+  <h1><span class="pinky-cat">Cat</span> of the Moment</h1>
+  <div class="img-moment">
+  <img src="/assets/scr/silueta.png" class="imgmoment" id="catmp" alt="">
+  </div>
+
+  <div class="btn-moment">
+  <button id="btnmo" class="btn" onclick="clikimg()">Reveal it!</button>
+</div>
+</div>
+<!--===== CARE OF CATS =======-->
+<div class="care-section" id="care">
+  <h1 class="tittle-care">Tips for <span class="pinky-cat">cat</span> lovers!</h1>
+  <div class="parent3">
+    <div class="div11 tips-tittle"><h2>Travel Safely With Your Pet</h2> </div>
+    <div class="div22 tips-tittle"><h2>Pay Attention to Your Pet’s Thirst</h2> </div>
+    <div class="div33 tips-tittle"><h2>Let Them Show Off!</h2></div>
+    <div class="div44 text-care"><p class="text-care1">Even if your cat seems to prefer it, do not let him or her travel unrestrained in a car. It's distracting to the driver and in the case of an accident, a cat can become a dangerous projectile. Werber also warns to ″never, ever leave your cat alone in a parked car." Even in cooler temperatures, and even with the windows cracked, a car quickly becomes uncomfortable for a fur-wearing pet. It takes mere minutes for a cat to perish in a warm car. Leave your cat at home if you do not plan to bring him or her inside with you.</p> <p class="text-care2">Never, ever leave your cat alone in a parked car</p></div>
+    <div class="div55 text-care"><p class="text-care1">Today's domestic cats evolved from desert-dwelling ancestors, meaning felines don't have the same thirst-drive as dogs. They need to get most of their water from food. Something that a cat might normally eat in the wild—like a mouse—is about 70% water, while canned food is 78% water. Dry food is only 5% to 10% water on average. Give your cat access to fresh water at all time, and you may notice cats drinking more when they are eating more dry food. Elderly and nursing cats can be more prone to dehydration than others, so watch them carefully for such symptoms as sunken eyes, lethargy, and panting.</p> <p class="text-care2">Give your cat access to fresh water at all time</p> </div>
+    <div class="div66 text-care"><p class="text-care1">When a cat loves you, he or she wants to demonstrate it, sometimes by presenting you with the results of a successful hunt. Werber suggests accepting the gifts with grace (even when sort of gross—hello, partially chewed mouse!). Your pet will also show you love by head bumping, purring, or kneading you with his or her paws. Sit back and enjoy.</p><p class="text-care2">Accept the gifts and head bumps, it's how they show love!</p> </div>
+    </div>
+</div>
+<!--===== FOOTER =======-->
+<footer>
+  <div class="parent4">
+    <div class="divf1 footerd tips-tittle"><h1>My Git</h1> </div>
+    <div class="divf2 footerd tips-tittle"><h1>Do you like cats? </h1></div>
+    <div class="divf3 footerd tips-tittle"><h1>Thanks</h1></div>
+    <div class="divf4 footerd footer-texts"><a href="https://github.com/MarazzaM" target="blank"><img src="/assets/scr/github.png" class="icon-footer" alt=""></a></div>
+    <div class="divf5 footerd footer-texts"><p>Me too!</p><br><p>If you wanna get in touch</p><br><a class="linkedin" href="https://www.linkedin.com/in/matías-edgardo-marazza-cantero-4ba4b6199/" target="blank">Here is my Linkedin</a> </div>
+    <div class="divf6 footerd footer-texts">To @SoyEva for they CodePen of the walking cat</div>
+    </div>
+</footer>
+<!-- SCRIPTS -->
+<!-- swiper -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- boxicon -->
+<script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+<!-- scrollreveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- animejs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<!-- main js -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
